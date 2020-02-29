@@ -164,6 +164,7 @@ PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="VSLangProj">
     </Reference>
     <Reference Include="VSLangProj2">
@@ -183,7 +184,10 @@ PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
     <Compile Include="HaveProtoc.cs" />
     <Compile Include="ICanGenerateFromProto.cs" />
     <Compile Include="IHaveProtoc.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="ProtobufGenerator.cs" />
+    <Compile Include="ProtobufGeneratorBase.cs" />
+    <Compile Include="ProtobufGeneratorGRPC.cs" />
     <Compile Include="Strings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
